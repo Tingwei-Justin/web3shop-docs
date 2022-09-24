@@ -13,6 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/web3shop-icon.png',
+  staticDirectories: ['static'],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -99,7 +100,7 @@ const config = {
                 label: 'Community',
                 to: '/overview/community/',
               },
-              
+
             ],
           },
           {
